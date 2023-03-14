@@ -8,11 +8,14 @@ With this you can just hit Ctrl+J, type in the ticket number into the box (or pa
  
 If it sounds like something you’d use you can install it as follows:
  
-1. Download and unzip the attached file
+1. Download the jira_chrome_plugin directory
 1. Chrome -> Settings -> Extensions -> Switch on Developer Mode (top right)
 1. Click “Load unpacked”
 1. Choose the jira_chrome_plugin folder
- 
-That’s it I think. You can now do Ctrl-J and a little box should pop up where you can type in the ticket id.
+1. Set the base URL of your jira instance in the plugin settings under Extension Options
+
+That's it!
+
+You can now hit Ctrl-J and a little box should pop up where you can type in the ticket id. Hit Enter and it will open the ticket in a new tab.
  
 If you pin the extension in the toolbar you get a little jira icon to click on which also pops up the little box.
